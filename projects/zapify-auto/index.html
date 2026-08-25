@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Zapify Auto Repairs — vehicle servicing, diagnostics, repairs and genuine replacement car parts.">
+<title>Zapify Auto Repairs | Workshop & Parts</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav class="nav wrap">
+  <a class="brand" href="#home"><span>ZAPIFY</span> AUTO <b>REPAIRS</b></a>
+  <button class="menu">☰</button>
+  <div class="links">
+    <a href="#services">Services</a><a href="#parts">Car Parts</a><a href="#about">Workshop</a><a href="#reviews">Reviews</a><button class="cart-button" id="cartOpen">Parts Cart <span id="cartCount">0</span></button><a class="quote" href="#contact">Get a Quote</a>
+  </div>
+</nav>
+</header>
+
+<div class="cart-drawer" id="cartDrawer" aria-hidden="true"><div class="cart-backdrop" id="cartBackdrop"></div><aside class="cart-panel"><div class="cart-head"><div><p class="eyebrow">WORKSHOP PARTS</p><h2>Your parts cart</h2></div><button id="cartClose">×</button></div><div id="cartItems" class="cart-items"><p class="empty-cart">Your cart is empty. Add parts from the workshop inventory.</p></div><div class="cart-total"><span>Demo total</span><strong id="cartTotal">R0</strong></div><button class="btn orange" id="cartQuote">Request a parts quote →</button><small>Prices are portfolio-demo estimates. Final compatibility and pricing are confirmed before purchase.</small></aside></div>
+<main>
+<section class="hero" id="home">
+<div class="hero-bg"></div>
+<div class="wrap hero-content">
+  <div class="badge">TRUSTED WORKSHOP • ZAPIFY</div>
+  <h1>Keep your car<br><em>road ready.</em></h1>
+  <p>Professional vehicle servicing, diagnostics, repairs and quality replacement parts — all under one roof.</p>
+  <div class="buttons"><a class="btn orange" href="#contact">Book a service</a><a class="btn outline" href="#parts">Browse parts</a></div>
+  <div class="stats"><div><strong>10+</strong><span>Service types</span></div><div><strong>50+</strong><span>Parts stocked</span></div><div><strong>6</strong><span>Workshop bays</span></div></div>
+</div>
+</section>
+
+<section class="ticker"><div>ENGINE • BRAKES • SUSPENSION • ELECTRICAL • SERVICE • PARTS • DIAGNOSTICS • ENGINE • BRAKES • SUSPENSION</div></section>
+
+<section id="services">
+<div class="wrap">
+<div class="section-head"><div><p class="eyebrow">WORKSHOP SERVICES</p><h2>We fix the problem.<br>Not just the symptom.</h2></div><p>From routine maintenance to difficult faults, our workshop is built for everyday vehicles and serious repairs.</p></div>
+<div class="service-grid">
+<article><span>01</span><div class="icon">🔧</div><h3>Full & minor service</h3><p>Oil, filters, fluids, inspections and scheduled maintenance.</p><a href="#contact">Book service →</a></article>
+<article><span>02</span><div class="icon">⚡</div><h3>Diagnostics</h3><p>Fault-code scanning, warning lights, electrical checks and troubleshooting.</p><a href="#contact">Book diagnostics →</a></article>
+<article><span>03</span><div class="icon">🛞</div><h3>Brakes & suspension</h3><p>Brake pads, discs, shocks, control arms, wheel bearings and more.</p><a href="#contact">Inspect my car →</a></article>
+<article><span>04</span><div class="icon">❄️</div><h3>Air conditioning</h3><p>Cooling checks, compressor faults, leaks and A/C maintenance.</p><a href="#contact">Book A/C check →</a></article>
+<article><span>05</span><div class="icon">🔋</div><h3>Battery & electrical</h3><p>Battery testing, alternators, starters, lights and electrical faults.</p><a href="#contact">Get help →</a></article>
+<article><span>06</span><div class="icon">⚙️</div><h3>Engine repairs</h3><p>Belts, hoses, cooling systems, gaskets and general engine repairs.</p><a href="#contact">Ask about repairs →</a></article>
+</div>
+</div>
+</section>
+
+<section class="parts" id="parts">
+<div class="wrap">
+<div class="section-head light"><div><p class="eyebrow">CAR PARTS</p><h2>Parts for the<br>jobs we do.</h2></div><p>Examples of real automotive replacement parts commonly used in servicing and repairs. Vehicle compatibility varies by make, model, year and engine.</p></div>
+
+<div class="filters">
+<button class="filter active" data-filter="all">All parts</button><button class="filter" data-filter="engine">Engine</button><button class="filter" data-filter="brakes">Brakes</button><button class="filter" data-filter="suspension">Suspension</button><button class="filter" data-filter="electrical">Electrical</button><button class="filter" data-filter="service">Service</button>
+</div>
+
+<div class="parts-grid">
+<article class="part" data-cat="engine"><div class="part-number">ENG-001</div><div class="part-icon">⚙</div><h3>Engine Air Filter</h3><p>Filters incoming air before it reaches the engine.</p><small>Common replacement item</small></article>
+<article class="part" data-cat="service"><div class="part-number">SRV-002</div><div class="part-icon">▣</div><h3>Oil Filter</h3><p>Removes contaminants from engine oil.</p><small>Service replacement</small></article>
+<article class="part" data-cat="service"><div class="part-number">SRV-003</div><div class="part-icon">◉</div><h3>Spark Plugs</h3><p>Ignition components used in petrol engines.</p><small>Sold by application</small></article>
+<article class="part" data-cat="brakes"><div class="part-number">BRK-004</div><div class="part-icon">◌</div><h3>Brake Pads</h3><p>Friction material used with disc brakes.</p><small>Front / rear applications</small></article>
+<article class="part" data-cat="brakes"><div class="part-number">BRK-005</div><div class="part-icon">◎</div><h3>Brake Discs / Rotors</h3><p>Rotating braking surface fitted to disc-brake systems.</p><small>Sold by vehicle application</small></article>
+<article class="part" data-cat="suspension"><div class="part-number">SUS-006</div><div class="part-icon">〰</div><h3>Shock Absorbers</h3><p>Controls suspension movement and helps maintain tyre contact.</p><small>Front / rear applications</small></article>
+<article class="part" data-cat="suspension"><div class="part-number">SUS-007</div><div class="part-icon">⌁</div><h3>Control Arms</h3><p>Suspension links connecting the wheel assembly to the chassis.</p><small>Vehicle-specific</small></article>
+<article class="part" data-cat="electrical"><div class="part-number">ELE-008</div><div class="part-icon">🔋</div><h3>12V Car Battery</h3><p>Provides electrical power for starting and vehicle systems.</p><small>Capacity varies by vehicle</small></article>
+<article class="part" data-cat="electrical"><div class="part-number">ELE-009</div><div class="part-icon">⚡</div><h3>Alternator</h3><p>Charges the battery and supplies electrical power while running.</p><small>Vehicle-specific</small></article>
+<article class="part" data-cat="electrical"><div class="part-number">ELE-010</div><div class="part-icon">◈</div><h3>Starter Motor</h3><p>Electric motor that cranks the engine during starting.</p><small>Vehicle-specific</small></article>
+<article class="part" data-cat="engine"><div class="part-number">ENG-011</div><div class="part-icon">○</div><h3>Thermostat</h3><p>Regulates engine coolant flow as operating temperature changes.</p><small>Engine-specific</small></article>
+<article class="part" data-cat="engine"><div class="part-number">ENG-012</div><div class="part-icon">⌇</div><h3>Serpentine Belt</h3><p>Drives accessories such as the alternator and A/C compressor.</p><small>Engine-specific</small></article>
+<article class="part" data-cat="service"><div class="part-number">SRV-013</div><div class="part-icon">◍</div><h3>Cabin Air Filter</h3><p>Filters air entering the passenger compartment.</p><small>Common maintenance item</small></article>
+<article class="part" data-cat="service"><div class="part-number">SRV-014</div><div class="part-icon">⌁</div><h3>Fuel Filter</h3><p>Filters contaminants from fuel before it reaches the engine.</p><small>Application dependent</small></article>
+<article class="part" data-cat="suspension"><div class="part-number">SUS-015</div><div class="part-icon">◉</div><h3>Wheel Bearings</h3><p>Bearings that allow the wheel hub to rotate smoothly.</p><small>Vehicle-specific</small></article>
+</div>
+<p class="parts-note">Need a specific part? Send us your <b>make, model, year and engine</b> and we'll check compatibility.</p>
+</div>
+</section>
+
+<section class="lookup">
+<div class="wrap lookup-box">
+<div><p class="eyebrow">PARTS LOOKUP</p><h2>Looking for a specific part?</h2><p>Tell us what you drive and what you need.</p></div>
+<form id="partForm"><input id="car" required placeholder="e.g. 2018 Toyota Corolla 1.8"><input id="needed" required placeholder="e.g. front brake pads"><button class="btn orange">Check availability →</button><p id="partStatus"></p></form>
+</div>
+</section>
+
+<section id="about">
+<div class="wrap about">
+<div class="workshop-photo"></div>
+<div><p class="eyebrow">THE WORKSHOP</p><h2>Good repairs start with a proper diagnosis.</h2><p>Zapify Auto Repairs is a fictional portfolio workshop concept focused on transparent service, practical repairs and quality replacement parts.</p>
+<div class="points"><div><b>01</b><span>Inspect</span></div><div><b>02</b><span>Diagnose</span></div><div><b>03</b><span>Quote</span></div><div><b>04</b><span>Repair</span></div></div></div>
+</div>
+</section>
+
+<section class="reviews" id="reviews">
+<div class="wrap"><div class="section-head"><div><p class="eyebrow">CUSTOMER REVIEWS</p><h2>Back on the road.</h2></div></div>
+<div class="review-grid"><article><div>★★★★★</div><p>“They explained the fault clearly and didn't try to sell me work I didn't need.”</p><b>Michael T.</b></article><article><div>★★★★★</div><p>“Quick service, friendly staff and the car felt completely different afterwards.”</p><b>Kayla M.</b></article><article><div>★★★★★</div><p>“I needed brake parts and a fitting. Everything was handled in one place.”</p><b>Jason P.</b></article></div></div>
+</section>
+
+<section class="contact" id="contact">
+<div class="wrap contact-grid">
+<div><p class="eyebrow">BOOK YOUR CAR</p><h2>Let's get you<br>back on the road.</h2><p>Demo contact details: Aproduct Test Ave 01, Zapify, ZDesigns.</p><p><b>074 389 9657</b><br>zapifyautorepairs@example.com</p></div>
+<form id="serviceForm"><input id="name" required placeholder="Your name"><input id="phone" required placeholder="Phone number"><input id="vehicle" required placeholder="Vehicle make & model"><select><option>Service</option><option>Diagnostics</option><option>Brake repair</option><option>Suspension</option><option>Electrical</option><option>Parts enquiry</option></select><textarea rows="4" placeholder="What does the car need?"></textarea><button class="btn orange">Send enquiry →</button><p id="status"></p></form>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap footer"><div><a class="brand"><span>ZAPIFY</span> AUTO <b>REPAIRS</b></a><p>Workshop services & automotive parts.</p></div><div><b>Workshop</b><a href="#services">Services</a><a href="#parts">Parts</a><a href="#reviews">Reviews</a></div><div><b>Contact</b><span>074 389 9657</span><span>zapifyautorepairs@example.com</span><span>Aproduct Test Ave 01, Zapify</span></div></div><div class="copy">© <span id="year"></span> Zapify Auto Repairs. Portfolio concept.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>

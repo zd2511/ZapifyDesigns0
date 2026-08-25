@@ -1,0 +1,15 @@
+{
+  "name": "zapify-designs",
+  "version": "5.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "express": "latest",
+    "openai": "latest"
+  }
+}
