@@ -1,0 +1,1 @@
+Zapify IT/CYBER demo website inspired by the supplied CyberSecure Solutions reference. Multi-page static demo with live clock, browser FPS meter, animated cyber HUD styling, services, solutions, industries, blog and contact form demo.
